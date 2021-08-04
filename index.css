@@ -6,7 +6,8 @@
     margin-left: 180px;
     background-color: turquoise;
     margin-right: 160px;
-    opacity: 60%;
+    opacity: 60%; 
+    color: black ;
 
     
     
@@ -28,7 +29,9 @@ body{
   background-image: url(./body.jpg);
     color: black; background-color: rgb(51, 155, 48);
 }
-.jumbotron{background-color: rgb(207, 15, 15);
+.jumbotron{background-color:rgb(39, 30, 30);
+    font-style: italic;
+    color: rgb(46, 43, 43);
 
    
 }
