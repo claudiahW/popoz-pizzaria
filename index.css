@@ -1,1 +1,4 @@
 div { border-style: dotted rgb(196, 19, 19);}
+.intro {
+    text-align: center ; font-style: normal; margin-left: 80px;
+}
