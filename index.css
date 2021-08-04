@@ -3,9 +3,9 @@
     text-align: center ; 
     font-style: italic ; 
     font-style: oblique; 
-    margin-left: 180px;
+    margin-left: 250px;
     background-color: turquoise;
-    margin-right: 160px;
+    margin-right: 200px;
     opacity: 60%; 
     color: black ;
 
@@ -23,7 +23,9 @@
     text-align: left; 
 }
 .card-body{
-    background-color: rgb(22, 126, 129); color: black; margin-right: 60px; margin-left: 50px;
+    background-color: rgb(22, 126, 129); color: black;
+     margin-left: 100px; margin-right: 150px;
+    margin-bottom: 50px;
 }
 body{ 
   background-image: url(./body.jpg);
