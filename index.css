@@ -1,13 +1,22 @@
 
 .intro {
-    text-align: center ; font-style: normal; margin-left: 80px;
+    text-align: center ; font-style: italic ; font-style: oblique; margin-left: 180px; background-color: cadetblue ;margin-right: 160px;
 }
-.thankyou { text-align: center; font-style: normal; margin-left: 80px;
+.thankyou { text-align: center; font-style: normal; margin-left: 80px; font-size: ;
 
 }
 .welcome {
-    background-color: rgb(142, 248, 216);
+    background-color:rgb(224, 141, 206); margin-right: 80px; margin-left: 100px;
 }
 .order {
     text-align: left; 
+}
+.card-body{
+    background-color: rgb(22, 126, 129); color: black; margin-right: 60px; margin-left: 50px;
+}
+body{
+    color: black; background-color: white;
+}
+.jumbotron{background-color: white;
+   
 }
