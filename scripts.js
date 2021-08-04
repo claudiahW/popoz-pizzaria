@@ -1,6 +1,7 @@
 console.log('Hello')
 function getSize() {
     var size = document.getElementById("pizzaSize").value;
+    
     return parseInt(size);
   }
   function getCrust() {
@@ -16,14 +17,15 @@ function getSize() {
     var number = document.getElementById("quantity").value;
     return parseInt(number);
   }
- 
+  console.log(getSize()) ;
   function totalAmount() {
       var totals = (getSize() + getCrust() + getTopping()) * getQuantity();
       alert(
-      "Your order of"  +
+      "Your order of "  +
        getQuantity ("") +
-      "Pizza," +
-      "" +  "total to Shillings " + 
+      " Pizza, " + 
+      " " +  "total to Shillings " + 
        totals +
       "" + ""+ ".Thank you for shopping with us!See you soon.")
-  }
+  };
+  
