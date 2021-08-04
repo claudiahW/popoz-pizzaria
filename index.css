@@ -53,6 +53,10 @@ body{
 }
 .contact{
     text-align: center;
+    font-style: italic;
     font-size: 30px;
     color:black;
+}
+.copyright{
+    text-align: center;
 }
