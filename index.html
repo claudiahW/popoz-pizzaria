@@ -14,14 +14,17 @@
  <title> Popoz Pizzaria </title>    
 </head>
 <body> 
-    <div class="jumbotron welcome jumbotron-fluid text-center">  
+    <div class="jumbotron  jumbotron-fluid text-center">  
             <div>
                 <h6 class="display-4">WELCOME</h6>
                 <h6 class="display-4">TO POPOZ-PIZZARIA</h6>
                 <p>WE MAKE YOUR TUMMY SAY YUMMY YUMMY</p>
                 </div> 
-    </div>
-    <div class="container-fluid">
+    
+    </div>           
+    
+    
+    <div class="container-fluid"> 
         <div class="order">
             <div class="placeOrder">
                 <form>
@@ -36,13 +39,12 @@
                                     <option label="Small -ksh 800" value="800"></option>
                                 </select>
                             </div>
-                        </div>
-
-                        
-                    <div class="form-group">
+                        </div>            
+                      <div class="form-group">
                         <div id="crust">
                             <label for="pizzaCrust">Crust</label>
                             <select class="browser-default custom-select" id="pizzaCrust">
+                                <option value="choose"></option>
                                 <option label=" Thin  -ksh 300" value="300"></option>
                                 <option label="Hand-Tossed  -ksh 200" value="200"></option>
                                 <option label="Gluten-free  -ksh 250" value="250"></option>
@@ -52,18 +54,34 @@
                         </div>
                     </div>
                     <div class="form-group">
+                        <div id="types">
+                            <label for="pizzaType">Type</label>
+                            <select class="browser-default custom-select" id="pizzaToppings">
+                                <option value="choose"></option>
+                                <option label="Boerwors Pizza"></option>
+                                <option label="Pepperoni Pizza"></option>
+                                <option label="Hawaaian Pizza"></option>
+                                <option label="Chicken tikka Pizza"></option>
+                                <option label="Sweet corn Pizza"></option>
+                                <option label="Chicken Pizza"></option>
+                            </select>
+                        </div>
+                    </div> 
+                    <div class="form-group">
                         <div id="toppings">
-                            <label for="pizzaTopping">Veggies</label>
+                            <label for="pizzaTopping">Toppings</label>
                             <select class="browser-default custom-select" id="pizzaTopping">
-                                <option label="Pepperoni -ksh.120" value="120"></option>
-                                <option label="Bacon -ksh.120" value="120"></option>
-                                <option label="Pineapple -ksh.100" value="100"></option>
-                                <option label="Chicken -ksh.100" value="100"></option>
-                                <option label="Veggies-ksh.100" value="100"></option>
-                                <option label="Turkey -ksh.100" value="100"></option>
+                                <option value="choose"></option>
+                                <option label="Pepperoni -ksh 120" value="120"></option>
+                                <option label="Bacon -ksh 120" value="120"></option>
+                                <option label="Pineapple -ksh 130" value="100"></option>
+                                <option label="Chicken -ksh 150" value="100"></option>
+                                <option label="Veggies-ksh 120" value="100"></option>
+                                <option label="Turkey -ksh 150" value="100"></option>
                             </select>
                         </div>
                     </div>
+
                     
 
 
