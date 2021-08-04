@@ -1,12 +1,22 @@
 
 .intro {
-    text-align: center ; font-style: italic ; font-style: oblique; margin-left: 180px; background-color: cadetblue ;margin-right: 160px;
+    text-align: center ; 
+    font-style: italic ; 
+    font-style: oblique; 
+    margin-left: 180px;
+    background-color: turquoise;
+    margin-right: 160px;
+    opacity: 60%;
+
+    
+    
 }
-.thankyou { text-align: center; font-style: normal; margin-left: 80px; font-size: ;
+.thankyou { text-align: center; font-style: normal; margin-left: 80px; font-size:16px ;
 
 }
 .welcome {
     background-color:rgb(224, 141, 206); margin-right: 80px; margin-left: 100px;
+    background-image: url(./jumbotron.jpeg);
 }
 .order {
     text-align: left; 
@@ -14,9 +24,18 @@
 .card-body{
     background-color: rgb(22, 126, 129); color: black; margin-right: 60px; margin-left: 50px;
 }
-body{
-    color: black; background-color: white;
+body{ 
+  background-image: url(./body.jpg);
+    color: black; background-color: rgb(51, 155, 48);
 }
-.jumbotron{background-color: white;
+.jumbotron{background-color: rgb(207, 15, 15);
+
    
+}
+.welcome, body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
 }
