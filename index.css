@@ -42,5 +42,17 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 
+}
+.delivery{
+    font-size: 25px;
+    background-color: turquoise;
+    margin-left: 150px ;
+    margin-right:150px;
+    opacity: 80%;
 
+}
+.contact{
+    text-align: center;
+    font-size: 30px;
+    color:black;
 }
